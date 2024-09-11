@@ -1,5 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
+import Home from "./pages/Home"
+import BestSeller from "./pages/BestSeller"
+import Products from "./pages/Products"
+import Auth from "./pages/Auth"
+import SignUp from "./pages/auth/SignUp"
+import SignIn from "./pages/auth/SignIn"
 
 function App() {
   return (
